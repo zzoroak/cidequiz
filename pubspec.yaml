@@ -1,4 +1,4 @@
-name: 농약 Quiz
+name: cide_quiz
 description: "식물보호기사 농약 암기"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
