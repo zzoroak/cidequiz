@@ -1,11 +1,11 @@
 {
-    "name": "cide_quiz",
-    "short_name": "cide_quiz",
+    "name": "농약 Quiz",
+    "short_name": "농약 Quiz",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "식물보호기사 농약 암기",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
