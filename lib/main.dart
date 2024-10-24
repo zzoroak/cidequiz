@@ -133,15 +133,6 @@ class _MyHomePageState extends State<MyHomePage> {
                             FilledButton(
                               style: ButtonStyle(
                                 backgroundColor:
-                                    WidgetStateProperty.all(Colors.pink),
-                              ),
-                              onPressed: () => changeButton("살균"),
-                              child: const Text("살균제"),
-                            ),
-                            const SizedBox(width: 5),
-                            FilledButton(
-                              style: ButtonStyle(
-                                backgroundColor:
                                     WidgetStateProperty.all(Colors.lightGreen),
                               ),
                               onPressed: () => changeButton("살충"),
@@ -155,6 +146,15 @@ class _MyHomePageState extends State<MyHomePage> {
                               ),
                               onPressed: () => changeButton("제초"),
                               child: const Text("제초제"),
+                            ),
+                            const SizedBox(width: 5),
+                            FilledButton(
+                              style: ButtonStyle(
+                                backgroundColor:
+                                    WidgetStateProperty.all(Colors.pink),
+                              ),
+                              onPressed: () => changeButton("살균"),
+                              child: const Text("살균제"),
                             ),
                           ],
                         )
